@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#survey-container {
+    width: 90%;
+    /* max-width: 600px; */
+    margin: 20px auto;
+    text-align: center;
+}
+
+#questions-container {
+    margin-bottom: 20px;
+}
+
+.question-item {
+    margin: 15px 0;
+}
+
+.survey-option {
+    margin-left: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#results-container {
+    margin-top: 20px;
+}
+
+#results-container svg {
+    border: 1px solid #ddd; /* Adds a border around the SVG */
+    border-radius: 5px; /* Optional: Rounds the corners of the SVG border */
+    background-color: #f9f9f9; /* Light background color for the SVG */
+}
+
+#results-container text {
+    font-family: 'Arial', sans-serif; /* Improves text readability */
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+#results-container rect {
+    transition: fill 0.3s ease; /* Adds a transition effect on hover */
+}
+
+#results-container rect:hover {
+    fill: #4a7ebf; /* Darker fill on hover for interactivity */
+}
+
+
+.user-modified {
+    background-color: #f0f0f0; /* Grey background */
+    visi
+}
+
+/* You might also want to add some styles for when the input is focused */
+.user-modified:focus {
+    background-color: #e0e0e0;
+    outline: none; /* Optional: removes the default focus outline */
+}
+
+footer {
+    font-size: 0.85em; /* makes the font smaller than the main content */
+    margin-top: 20px; /* adds space between the main content and the footer */
+    padding: 10px;
+    background-color: #f8f8f8; /* light grey background */
+    border-top: 1px solid #e7e7e7; /* adds a separating line */
+}
+
+footer a {
+    color: #0645ad; /* standard link color */
+}
+
+footer a:hover {
+    text-decoration: underline; /* standard link behavior */
+}
+
+.note {
+    margin-bottom: 10px; /* adds space below the note before the list */
+}
+.note2 {
+    font-size: 14px; /* makes the font smaller than the main content */
+}
+
+ul {
+    list-style-type: none; /* Removes the default bullet points from lists */
+    padding-left: 0; /* Removes the default padding from lists */
+}
+
+ul li {
+    padding-left: 10px; /* Optional: Adds some padding to list items for better readability */
+    text-align: left; /* Aligns text to the left for list items */
+}
+
+button:hover {
+    background-color: #4a7ebf; /* Changes background color on hover */
+    color: white; /* Changes text color on hover */
+    transition: background-color 0.3s; /* Smooth transition for the color change */
+}
+

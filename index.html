@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>四型人才问卷</title>
+<link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+
+<div id="survey-container">
+    <h1>四型人才问卷</h1>
+    <p>问卷来源：孔毅 第一与唯一课程</p>
+    
+    <div id="directions">
+        <p><strong></strong></p>
+        <p>以下问卷请答“是”或“非”。“是”为1，“非”为0。起始默认所有答案都为“是”</p>
+
+    </div>
+    <br><br><br>
+
+    <h2>快捷答案输入</h2>
+    <p class="note2">如果你之前做过或者没做完，可以在这里迅速粘贴之前做过的答案。你这一次做完后点下面的完成按钮，你这次做的所有答案也会显示在这里，可以用来快速复制粘贴</p>
+    
+    <input type="text" id="answerInput" placeholder="写下答案 (格式： 11001...)" />
+    <button id="submitAnswersButton">提交</button>
+
+    
+    <h2>题目</h2>
+    <form id="survey-form">
+        <div id="questions-container">
+            <!-- Questions will be inserted dynamically by JavaScript -->
+        </div>
+        <button type="submit" id="submit-survey">完成</button>
+    </form>
+    <div id="results-container"></div>
+</div>
+<footer>
+    <p class="note">
+        见大家用笔写算太麻烦，就写了这个小网站，弟兄姐妹填好答案后可以自动看结果，还有图表和答案的归类整理。 网页制作者：司向生
+    </p>
+    <ul>
+
+    </ul>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
